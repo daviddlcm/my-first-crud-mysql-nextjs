@@ -1,0 +1,53 @@
+.nav__container{
+    display: flex;
+    align-items: center;
+    background-color: blueviolet;
+    height: 80px;
+}
+.nav__container h1{
+    color: black;
+    margin: 5px 15px;
+}
+.productForm{
+    background-color:rgb(255, 255, 255);
+    padding: 20px 20px;
+    border-radius: 5px;
+}
+.label_form{
+    font-size: small;
+    font-weight: bold;
+    color:rgb(133, 125, 125);
+}
+.input_form{
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(133, 125, 125);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.btn_form{
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: small;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.card{
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: 2px solid grey;
+    margin: 6px 0px;
+    padding: 5px;
+}
+.card:hover{
+    cursor: pointer;
+    background-color: hsl(0, 6%, 87%);
+}
